@@ -1,38 +1,63 @@
-Week 1 - HTML
+## Week 1 - HTML
 
-1. Project Description
+# 1. Project Description
 
 This project is part of my Full Stack Java learning journey. It focuses on learning HTML and web development fundamentals.
 
-2. Technologies Used
+# 2. Technologies Used
 
 * HTML5
 * Visual Studio Code
 * Google Chrome
 
-3. Project Structure
+# 3. Project Structure
 
-* index.html: My first HTML page.
-* notes/day-01-notes.md: Day 1 learning notes and testing results.
+Week 1 - HTML/
+│
+├── images/
+│   ├── day-01-page.png
+│   ├── developer-avatar.png
+│   └── day-02-personal-page.png
+│
+├── notes/
+│   ├── day-01-notes.md
+│   └── day-02-notes.md
+│
+├── index.html
+├── personal-page.html
+└── README.md
 
-4. Setup & Run Instructions
+# 4. Setup & Run Instructions
 
 1. Open the project folder in Visual Studio Code.
 2. Open index.html using Google Chrome.
 3. View the web page in the browser.
 
-5. Screenshots
+# 5. Screenshots
+## Day 1 - HTML Page
 
 ![Day 1 - First HTML page](images/day-01-page.png)
 
-6. Known Limitations
+## Day 2 - Personal Page 
+
+![Day 2 - Personal Page](images/day-02-personal-page.png)
+
+# 6. Known Limitations
 
 
-7. Learning Progress
+# 7. Learning Progress
 
-Day 01 - Web & Setup
+### Day 01 - Web & Setup
 
 * Learned about Browser, Server, and HTTP.
 * Created my first HTML page.
 * Opened the page using Google Chrome.
 * Tested the page successfully.
+### Day 02 -HTML Structure
+
+- Created a personal portfolio page.
+- Practiced headings and paragraphs.
+- Added LinkedIn and GitHub links.
+- Added an HTML learning resource link.
+- Added a developer avatar image.
+- Tested all links and the image successfully.
