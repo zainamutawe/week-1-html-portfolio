@@ -13,20 +13,25 @@ This project is part of my Full Stack Java learning journey. It focuses on learn
 # 3. Project Structure
 
 Week 1 - HTML/
+│
 ├── images/
 │   ├── day-01-page.png
 │   ├── day-02-personal-page.png
 │   ├── day-03-trainee-directory.png
+│   ├── day-04-registration-form.png
 │   └── developer-avatar.png
+│
 ├── notes/
 │   ├── day-01-notes.md
 │   ├── day-02-notes.md
-│   └── day-03-notes.md
+│   ├── day-03-notes.md
+│   └── day-04-notes.md
+│
 ├── index.html
 ├── personal-page.html
+├── registration-form.html
 ├── trainee-directory.html
 └── README.md
-
 # 4. Setup & Run Instructions
 
 1. Open the project folder in Visual Studio Code.
@@ -45,6 +50,9 @@ Week 1 - HTML/
 ## Day 3 - Trainee Directory 
 
 ![Day 3 - Trainee Directory](images/day-03-trainee-directory.png)
+
+## Day 4 - Registration Form 
+![Day 4 Registration Form](images/day-04-registration-form.png)
 
 # 6. Known Limitations
 
@@ -72,3 +80,9 @@ Week 1 - HTML/
 * Created separate skills lists for three trainees.
 * Practiced using HTML table elements: <table>, <tr>, <th>, and <td>.
 * Practiced using HTML list elements: <ul> and <li>.
+
+### Day 04 - HTML Forms
+* Created a registration form using HTML.
+* Practiced labels and different input types.
+* Used required fields for form validation.
+* Tested empty fields and invalid email addresses.
