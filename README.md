@@ -80,8 +80,8 @@ Week 1 - HTML/
 * Created a trainee directory table using HTML.
 * Added trainee names, ages, and specializations.
 * Created separate skills lists for three trainees.
-* Practiced using HTML table elements: '<table>', '<tr>', '<th>', and '<td>'.
-* Practiced using HTML list elements: '<ul>' and '<li>'.
+* Practiced using HTML table elements: table, tr, th, and td.
+* Practiced using HTML list elements: ul, and li.
 
 ### Day 04 - HTML Forms
 * Created a registration form using HTML.
