@@ -13,24 +13,23 @@ This project is part of my Full Stack Java learning journey. It focuses on learn
 # 3. Project Structure
 
 Week 1 - HTML/
-│
 ├── images/
 │   ├── day-01-page.png
 │   ├── day-02-personal-page.png
 │   ├── day-03-trainee-directory.png
 │   ├── day-04-registration-form.png
+│   ├── day-05-portfolio.png
 │   └── developer-avatar.png
-│
 ├── notes/
 │   ├── day-01-notes.md
 │   ├── day-02-notes.md
 │   ├── day-03-notes.md
-│   └── day-04-notes.md
-│
+│   ├── day-04-notes.md
+│   └── day-05-notes.md
 ├── index.html
 ├── personal-page.html
-├── registration-form.html
 ├── trainee-directory.html
+├── registration-form.html
 └── README.md
 # 4. Setup & Run Instructions
 
@@ -53,6 +52,9 @@ Week 1 - HTML/
 
 ## Day 4 - Registration Form 
 ![Day 4 Registration Form](images/day-04-registration-form.png)
+
+## Day 5 - Final HTML Portfolio 
+![Day 5 Portfolio](images/day-05-portfolio.png)
 
 # 6. Known Limitations
 
@@ -86,3 +88,9 @@ Week 1 - HTML/
 * Practiced labels and different input types.
 * Used required fields for form validation.
 * Tested empty fields and invalid email addresses.
+
+### Day 05 - HTML Portfolio and Navigation
+* Connected three HTML pages using navigation links.
+* Added a navigation menu to all three pages.
+* Tested navigation links between the pages.
+* Completed the three-page HTML portfolio.
