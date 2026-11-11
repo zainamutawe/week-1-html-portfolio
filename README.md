@@ -13,18 +13,18 @@ This project is part of my Full Stack Java learning journey. It focuses on learn
 # 3. Project Structure
 
 Week 1 - HTML/
-│
 ├── images/
 │   ├── day-01-page.png
-│   ├── developer-avatar.png
-│   └── day-02-personal-page.png
-│
+│   ├── day-02-personal-page.png
+│   ├── day-03-trainee-directory.png
+│   └── developer-avatar.png
 ├── notes/
 │   ├── day-01-notes.md
-│   └── day-02-notes.md
-│
+│   ├── day-02-notes.md
+│   └── day-03-notes.md
 ├── index.html
 ├── personal-page.html
+├── trainee-directory.html
 └── README.md
 
 # 4. Setup & Run Instructions
@@ -41,6 +41,10 @@ Week 1 - HTML/
 ## Day 2 - Personal Page 
 
 ![Day 2 - Personal Page](images/day-02-personal-page.png)
+
+## Day 3 - Trainee Directory 
+
+![Day 3 - Trainee Directory](images/day-03-trainee-directory.png)
 
 # 6. Known Limitations
 
@@ -61,3 +65,10 @@ Week 1 - HTML/
 - Added an HTML learning resource link.
 - Added a developer avatar image.
 - Tested all links and the image successfully.
+
+### Day 03 - Lists and Tables
+* Created a trainee directory table using HTML.
+* Added trainee names, ages, and specializations.
+* Created separate skills lists for three trainees.
+* Practiced using HTML table elements: <table>, <tr>, <th>, and <td>.
+* Practiced using HTML list elements: <ul> and <li>.
