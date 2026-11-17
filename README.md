@@ -1,14 +1,17 @@
-## Week 1 - HTML
+## Full Stack Java Portfolio Project .
 
 # 1. Project Description
 
-This project is part of my Full Stack Java learning journey. It focuses on learning HTML and web development fundamentals.
+This project is part of my Full Stack Java learning journey. It covers HTML and CSS fundamentals, including building and styling a responsive three-page portfolio website.
 
 # 2. Technologies Used
 
 * HTML5
+* CSS3
 * Visual Studio Code
 * Google Chrome
+
+# 3. Project Structure
 
 # 3. Project Structure
 
@@ -30,12 +33,22 @@ Week 1 - HTML/
 ├── personal-page.html
 ├── trainee-directory.html
 ├── registration-form.html
-└── README.md
+├── README.md
+└── Week 2 - CSS/
+    ├── style.css
+    ├── images/
+    │   ├── day-06-personal-page.png
+    │   ├── day-06-registration-form.png
+    │   └── day-06-trainee-directory.png
+    └── notes/
+        └── day-06-notes.md
 # 4. Setup & Run Instructions
 
 1. Open the project folder in Visual Studio Code.
-2. Open index.html using Google Chrome.
-3. View the web page in the browser.
+2. Open personal-page.html, trainee-directory.html, or registration-form.html.
+3. Open the selected HTML page in Google Chrome.
+4. Check that the CSS styling is applied correctly.
+5. Use the navigation menu to move between the three portfolio pages.
 
 # 5. Screenshots
 ## Day 1 - HTML Page
@@ -56,8 +69,13 @@ Week 1 - HTML/
 ## Day 5 - Final HTML Portfolio 
 ![Day 5 Portfolio](images/day-05-portfolio.png)
 
-# 6. Known Limitations
+### Day 6 - CSS Selectors and Typography 
+![Day 6 - Personal Page](Week%202%20-%20CSS/images/day-06-personal-page.png)
+![Day 6 - Registration Form](Week%202%20-%20CSS/images/day-06-registration-form.png)
+![Day 6 - Trainee Directory](Week%202%20-%20CSS/images/day-06-trainee-directory.png)
 
+# 6. Known Limitations
+NO Known limitation at this stage.
 
 # 7. Learning Progress
 
@@ -94,3 +112,12 @@ Week 1 - HTML/
 * Added a navigation menu to all three pages.
 * Tested navigation links between the pages.
 * Completed the three-page HTML portfolio.
+
+### Day 06 - CSS Selectors and Typography
+
+* Learned how CSS is used to style HTML pages.
+* Practiced CSS selectors, colors, and typography.
+* Created and connected an external CSS file.
+* Styled headings, paragraphs, links, and navigation bars.
+* Applied consistent styling to the three portfolio pages.
+* Tested CSS styling and navigation links successfully.
