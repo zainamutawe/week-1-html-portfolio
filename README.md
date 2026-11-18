@@ -2,7 +2,11 @@
 
 # 1. Project Description
 
-This project is part of my Full Stack Java learning journey. It covers HTML and CSS fundamentals, including building and styling a responsive three-page portfolio website.
+This project is part of my Full Stack Java learning journey.
+
+It documents my progress in learning HTML and CSS by building a three-page portfolio website and practicing web development fundamentals.
+
+The project includes HTML structure, navigation, forms, CSS selectors, typography, the CSS box model, and reusable cards.
 
 # 2. Technologies Used
 
@@ -10,12 +14,13 @@ This project is part of my Full Stack Java learning journey. It covers HTML and 
 * CSS3
 * Visual Studio Code
 * Google Chrome
-
-# 3. Project Structure
+* Git 
+* GitHub
 
 # 3. Project Structure
 
 Week 1 - HTML/
+│
 ├── images/
 │   ├── day-01-page.png
 │   ├── day-02-personal-page.png
@@ -23,32 +28,43 @@ Week 1 - HTML/
 │   ├── day-04-registration-form.png
 │   ├── day-05-portfolio.png
 │   └── developer-avatar.png
+│
 ├── notes/
 │   ├── day-01-notes.md
 │   ├── day-02-notes.md
 │   ├── day-03-notes.md
 │   ├── day-04-notes.md
 │   └── day-05-notes.md
+│
+├── Week 2 - CSS/
+│   ├── reusable-cards.html
+│   ├── style.css
+│   ├── images/
+│   │   ├── day-06-personal-page.png
+│   │   ├── day-06-registration-form.png
+│   │   ├── day-06-trainee-directory.png
+│   │   └── day-07-reusable-cards.png
+│   │
+│   └── notes/
+│       ├── day-06-notes.md
+│       └── day-07-notes.md
+│
 ├── index.html
 ├── personal-page.html
 ├── trainee-directory.html
 ├── registration-form.html
-├── README.md
-└── Week 2 - CSS/
-    ├── style.css
-    ├── images/
-    │   ├── day-06-personal-page.png
-    │   ├── day-06-registration-form.png
-    │   └── day-06-trainee-directory.png
-    └── notes/
-        └── day-06-notes.md
+└── README.md
 # 4. Setup & Run Instructions
 
 1. Open the project folder in Visual Studio Code.
-2. Open personal-page.html, trainee-directory.html, or registration-form.html.
-3. Open the selected HTML page in Google Chrome.
-4. Check that the CSS styling is applied correctly.
+2. Open one of the HTML pages:
+    * personal-page.html
+    * trainee-directory.html
+    * registration-form.html
+3. Open the selected HTML file in Google Chrome.
+4. Check that the CSS styling is displayed correctly.
 5. Use the navigation menu to move between the three portfolio pages.
+
 
 # 5. Screenshots
 ## Day 1 - HTML Page
@@ -71,8 +87,13 @@ Week 1 - HTML/
 
 ### Day 6 - CSS Selectors and Typography 
 ![Day 6 - Personal Page](Week%202%20-%20CSS/images/day-06-personal-page.png)
+
 ![Day 6 - Registration Form](Week%202%20-%20CSS/images/day-06-registration-form.png)
+
 ![Day 6 - Trainee Directory](Week%202%20-%20CSS/images/day-06-trainee-directory.png)
+
+#### Day 7 - CSS Box Model and Reusable Cards
+![Day 7 Reusable Cards](Week%202%20-%20CSS/images/day-07-reusable-cards.png)
 
 # 6. Known Limitations
 NO Known limitation at this stage.
@@ -121,3 +142,11 @@ NO Known limitation at this stage.
 * Styled headings, paragraphs, links, and navigation bars.
 * Applied consistent styling to the three portfolio pages.
 * Tested CSS styling and navigation links successfully.
+
+### Day 07 - CSS Box Model and Reusable Cards
+
+* Learned the CSS box model: content, padding, border, and margin.
+* Practiced card sizing and spacing.
+* Added borders and rounded corners to reusable cards.
+* Created multiple cards using the same CSS class.
+* Tested the reusable cards page in Google Chrome.
