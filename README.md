@@ -10,6 +10,9 @@ The project includes HTML structure, navigation, forms, CSS selectors, typograph
 
 The project also includes Flexbox layouts with a navigation bar and responsive card row.
 
+
+
+
 # 2. Technologies Used
 
 * HTML5
@@ -19,9 +22,16 @@ The project also includes Flexbox layouts with a navigation bar and responsive c
 * Git 
 * GitHub
 
+
+
 # 3. Project Structure
 
 Week 1 - HTML/
+│
+├── index.html
+├── personal-page.html
+├── trainee-directory.html
+├── registration-form.html
 │
 ├── images/
 │   ├── day-01-page.png
@@ -38,30 +48,37 @@ Week 1 - HTML/
 │   ├── day-04-notes.md
 │   └── day-05-notes.md
 │
-├── index.html
-├── personal-page.html
-├── trainee-directory.html
-├── registration-form.html
-│
 ├── Week 2 - CSS/
+│   ├── flexbox.html
+│   ├── reusable-cards.html
+│   ├── grid-gallery.html
+│   ├── style.css
+│   │
 │   ├── images/
 │   │   ├── day-06-personal-page.png
 │   │   ├── day-06-registration-form.png
 │   │   ├── day-06-trainee-directory.png
 │   │   ├── day-07-reusable-cards.png
 │   │   ├── day-08-flexbox-desktop.png
-│   │   └── day-08-flexbox-responsive.png
+│   │   ├── day-08-flexbox-responsive.png
+│   │   ├── day-09-grid-desktop.png
+│   │   ├── day-09-grid-responsive.png
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   ├── image3.jpg
+│   │   ├── image4.jpg
+│   │   ├── image5.jpg
+│   │   └── image6.jpg
 │   │
-│   ├── notes/
-│   │   ├── day-06-notes.md
-│   │   ├── day-07-notes.md
-│   │   └── day-08-notes.md
-│   │
-│   ├── reusable-cards.html
-│   ├── flexbox.html
-│   └── style.css
+│   └── notes/
+│       ├── day-06-notes.md
+│       ├── day-07-notes.md
+│       ├── day-08-notes.md
+│       └── day-09-notes.md
 │
 └── README.md
+
+
 
 # 4. Setup & Run Instructions
 
@@ -73,6 +90,7 @@ Week 1 - HTML/
 3. Open the selected HTML file in Google Chrome.
 4. Check that the CSS styling is displayed correctly.
 5. Use the navigation menu to move between the three portfolio pages.
+
 
 
 # 5. Screenshots
@@ -109,8 +127,22 @@ Week 1 - HTML/
 ![Day 8 - Flexbox Desktop](Week%202%20-%20CSS/images/day-08-flexbox-desktop.png)
 
 ![Day 8 - Flexbox Responsive](Week%202%20-%20CSS/images/day-08-flexbox-responsive.png)
+
+#### Day 9 - CSS Grid
+
+![Day 9 - Grid Desktop](Week%202%20-%20CSS/images/day-09-grid-desktop.png)
+
+![Day 9 - Grid Responsive](Week%202%20-%20CSS/images/day-09-grid-responsive.png)
+
+
+
+
 # 6. Known Limitations
 NO Known limitation at this stage.
+
+
+
+
 
 # 7. Learning Progress
 
@@ -172,3 +204,11 @@ NO Known limitation at this stage.
 * Arranged three course cards in a responsive row.
 * Used flex-wrap to move cards into new rows when screen space becomes smaller.
 * Tested the layout on a large and a smaller browser window.
+
+### Day 09 - CSS Grid
+
+* Learned how to create layouts using CSS Grid.
+* Created an image gallery with six nature images.
+* Used grid columns and spacing to arrange the images.
+* Used auto-fit and minmax() to make the gallery responsive.
+* Tested the gallery on wide and narrower browser windows.
