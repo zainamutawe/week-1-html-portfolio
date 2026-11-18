@@ -137,3 +137,71 @@ button {
     height: 200px;
     object-fit: cover;
 }
+
+/* Day 10 - Media Queries */
+
+/* Tablet screens */
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .flex-nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img {
+        height: 180px;
+    }
+
+    input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}

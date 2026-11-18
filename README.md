@@ -32,6 +32,7 @@ Week 1 - HTML/
 ├── personal-page.html
 ├── trainee-directory.html
 ├── registration-form.html
+├── README.md
 │
 ├── images/
 │   ├── day-01-page.png
@@ -48,37 +49,44 @@ Week 1 - HTML/
 │   ├── day-04-notes.md
 │   └── day-05-notes.md
 │
-├── Week 2 - CSS/
-│   ├── flexbox.html
-│   ├── reusable-cards.html
-│   ├── grid-gallery.html
-│   ├── style.css
-│   │
-│   ├── images/
-│   │   ├── day-06-personal-page.png
-│   │   ├── day-06-registration-form.png
-│   │   ├── day-06-trainee-directory.png
-│   │   ├── day-07-reusable-cards.png
-│   │   ├── day-08-flexbox-desktop.png
-│   │   ├── day-08-flexbox-responsive.png
-│   │   ├── day-09-grid-desktop.png
-│   │   ├── day-09-grid-responsive.png
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   ├── image3.jpg
-│   │   ├── image4.jpg
-│   │   ├── image5.jpg
-│   │   └── image6.jpg
-│   │
-│   └── notes/
-│       ├── day-06-notes.md
-│       ├── day-07-notes.md
-│       ├── day-08-notes.md
-│       └── day-09-notes.md
-│
-└── README.md
-
-
+└── Week 2 - CSS/
+    │
+    ├── reusable-cards.html
+    ├── flexbox.html
+    ├── grid-gallery.html
+    ├── style.css
+    │
+    ├── images/
+    │   ├── day-06-personal-page.png
+    │   ├── day-06-registration-form.png
+    │   ├── day-06-trainee-directory.png
+    │   ├── day-07-reusable-cards.png
+    │   ├── day-08-flexbox-desktop.png
+    │   ├── day-08-flexbox-responsive.png
+    │   ├── day-09-grid-desktop.png
+    │   ├── day-09-grid-responsive.png
+    │   ├── day-10-personal-mobile.png
+    │   ├── day-10-personal-tablet.png
+    │   ├── day-10-personal-desktop.png
+    │   ├── day-10-registration-mobile.png
+    │   ├── day-10-registration-tablet.png
+    │   ├── day-10-registration-desktop.png
+    │   ├── day-10-trainee-mobile.png
+    │   ├── day-10-trainee-tablet.png
+    │   ├── day-10-trainee-desktop.png
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   ├── image3.jpg
+    │   ├── image4.jpg
+    │   ├── image5.jpg
+    │   └── image6.jpg
+    │
+    └── notes/
+        ├── day-06-notes.md
+        ├── day-07-notes.md
+        ├── day-08-notes.md
+        ├── day-09-notes.md
+        └── day-10-notes.md
 
 # 4. Setup & Run Instructions
 
@@ -133,6 +141,36 @@ Week 1 - HTML/
 ![Day 9 - Grid Desktop](Week%202%20-%20CSS/images/day-09-grid-desktop.png)
 
 ![Day 9 - Grid Responsive](Week%202%20-%20CSS/images/day-09-grid-responsive.png)
+
+### Day 10 - Media Queries
+
+**Personal Portfolio**
+
+![Personal Portfolio - Mobile](<Week 2 - CSS/images/day-10-personal-mobile.png>)
+
+![Personal Portfolio - Tablet](<Week 2 - CSS/images/day-10-personal-tablet.png>)
+
+![Personal Portfolio - Desktop](<Week 2 - CSS/images/day-10-personal-desktop.png>)
+
+
+
+**Registration Form**
+
+![Registration Form - Mobile](<Week 2 - CSS/images/day-10-registration-mobile.png>)
+
+![Registration Form - Tablet](<Week 2 - CSS/images/day-10-registration-tablet.png>)
+
+![Registration Form - Desktop](<Week 2 - CSS/images/day-10-registration-desktop.png>)
+
+
+
+**Trainee Directory**
+
+![Trainee Directory - Mobile](<Week 2 - CSS/images/day-10-trainee-mobile.png>)
+
+![Trainee Directory - Tablet](<Week 2 - CSS/images/day-10-trainee-tablet.png>)
+
+![Trainee Directory - Desktop](<Week 2 - CSS/images/day-10-trainee-desktop.png>)
 
 
 
@@ -212,3 +250,10 @@ NO Known limitation at this stage.
 * Used grid columns and spacing to arrange the images.
 * Used auto-fit and minmax() to make the gallery responsive.
 * Tested the gallery on wide and narrower browser windows.
+
+### Day 10 - Media Queries
+- Added tablet and mobile media queries.
+- Improved the responsive layout of the portfolio pages.
+- Tested the pages on mobile, tablet, and desktop screen sizes.
+- Saved screenshots documenting the responsive layouts.
+- Completed Day 10 learning notes.
