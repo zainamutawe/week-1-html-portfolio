@@ -8,6 +8,8 @@ It documents my progress in learning HTML and CSS by building a three-page portf
 
 The project includes HTML structure, navigation, forms, CSS selectors, typography, the CSS box model, and reusable cards.
 
+The project also includes Flexbox layouts with a navigation bar and responsive card row.
+
 # 2. Technologies Used
 
 * HTML5
@@ -36,24 +38,31 @@ Week 1 - HTML/
 │   ├── day-04-notes.md
 │   └── day-05-notes.md
 │
-├── Week 2 - CSS/
-│   ├── reusable-cards.html
-│   ├── style.css
-│   ├── images/
-│   │   ├── day-06-personal-page.png
-│   │   ├── day-06-registration-form.png
-│   │   ├── day-06-trainee-directory.png
-│   │   └── day-07-reusable-cards.png
-│   │
-│   └── notes/
-│       ├── day-06-notes.md
-│       └── day-07-notes.md
-│
 ├── index.html
 ├── personal-page.html
 ├── trainee-directory.html
 ├── registration-form.html
+│
+├── Week 2 - CSS/
+│   ├── images/
+│   │   ├── day-06-personal-page.png
+│   │   ├── day-06-registration-form.png
+│   │   ├── day-06-trainee-directory.png
+│   │   ├── day-07-reusable-cards.png
+│   │   ├── day-08-flexbox-desktop.png
+│   │   └── day-08-flexbox-responsive.png
+│   │
+│   ├── notes/
+│   │   ├── day-06-notes.md
+│   │   ├── day-07-notes.md
+│   │   └── day-08-notes.md
+│   │
+│   ├── reusable-cards.html
+│   ├── flexbox.html
+│   └── style.css
+│
 └── README.md
+
 # 4. Setup & Run Instructions
 
 1. Open the project folder in Visual Studio Code.
@@ -95,6 +104,11 @@ Week 1 - HTML/
 #### Day 7 - CSS Box Model and Reusable Cards
 ![Day 7 Reusable Cards](Week%202%20-%20CSS/images/day-07-reusable-cards.png)
 
+#### Day 8 - Flexbox
+
+![Day 8 - Flexbox Desktop](Week%202%20-%20CSS/images/day-08-flexbox-desktop.png)
+
+![Day 8 - Flexbox Responsive](Week%202%20-%20CSS/images/day-08-flexbox-responsive.png)
 # 6. Known Limitations
 NO Known limitation at this stage.
 
@@ -150,3 +164,11 @@ NO Known limitation at this stage.
 * Added borders and rounded corners to reusable cards.
 * Created multiple cards using the same CSS class.
 * Tested the reusable cards page in Google Chrome.
+
+### Day 08 - Flexbox
+
+* Learned how to use Flexbox to arrange elements.
+* Created a navigation bar using Flexbox.
+* Arranged three course cards in a responsive row.
+* Used flex-wrap to move cards into new rows when screen space becomes smaller.
+* Tested the layout on a large and a smaller browser window.
