@@ -1,0 +1,207 @@
+body {
+    background-color: #f5f5f5;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 26px;
+}
+
+h3, h4 {
+    color: #40566f;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444444;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #0d47a1;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    color: #344950;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+li {
+    font-weight: 500;
+}
+
+lable {
+    color: #2c3e50;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    font-size: 16px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    margin: 20px;
+    height: 120px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Day 9 - CSS Grid */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Day 10 - Media Queries */
+
+/* Tablet screens */
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .flex-nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img {
+        height: 180px;
+    }
+
+    input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
